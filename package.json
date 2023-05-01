@@ -1,0 +1,43 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear --single",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@tsconfig/svelte": "^2.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.58.0",
+    "svelte-check": "^2.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "@lukeed/csprng": "^1.0.1",
+    "@rollup/plugin-alias": "^3.1.9",
+    "dexie": "^3.2.1",
+    "dotenv": "^16.0.0",
+    "gh-pages": "^5.0.0",
+    "jscrypto": "^1.0.3",
+    "sass": "^1.49.11",
+    "sirv-cli": "^2.0.0",
+    "socket.io-client": "^4.4.1",
+    "svelte-icons": "^2.1.0",
+    "svelte-loading-spinners": "^0.1.7",
+    "svelte-modals": "^1.1.0",
+    "svelte-routing": "^1.6.0"
+  }
+}
